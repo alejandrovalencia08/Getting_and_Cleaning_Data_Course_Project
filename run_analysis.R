@@ -74,7 +74,7 @@ names.data <- names.data %>%
             gsub("Z", ".Z.",.) %>%
             gsub(pattern = "[.]$", replacement = "",.)
 
-colnames(data) <- names.data
+colnames(data) <- names.data #Associated names.data to data
 
 
 

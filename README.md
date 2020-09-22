@@ -39,7 +39,7 @@
 
 #(vi) Appropriately labels the data set with descriptive variable names (Step 4)
         names.data <- a new objete with column names of data is created 
-		"code" name from names.data is renamed to "activities"
+        "code" name from names.data is renamed to "activities"
         variables names in names.data is padronized using gsub function and %>% operator; Acronym of variables is standartized (e.g. Acc by Accelerometer,
             Gyro by Gyroscope, etc); start character was changed (t and f by Frequency and Time respectively)
         names.data padronized was associated with the column names of data
